@@ -1,0 +1,59 @@
+body {
+    background: #dff0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #4a90e2;
+}
+
+button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #357abd;
+}
+
+.oculto {
+    display: none;
+}
+
+/* PUZZLE */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    grid-gap: 3px;
+    margin-top: 15px;
+}
+
+.pieza {
+    width: 90px;
+    height: 90px;
+    background-image: url("img/foto1.jpeg");
+    background-size: 270px 270px;
+    cursor: pointer;
+}
